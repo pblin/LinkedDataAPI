@@ -1,0 +1,163 @@
+<http://wso2.scholastic-labs.io/cool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/dc/terms/title> "Scholastic COOL Custom Vocabulary" .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/dc/terms/description> "Classes and Properties for COOL" .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/dc/elements/1.1/license> "http://creativecommons.org/licenses/by/3.0/" .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/dc/terms/modified> "2014-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://wso2.scholastic-labs.io/cool#" .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/vocab/vann/preferredNamespacePrefix> "cool" .
+<http://wso2.scholastic-labs.io/cool> <http://xmlns.com/foaf/0.1/homepage> <http://wso2.scholastic-labs.io/cool.html> .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/dc/terms/created> "2014-05-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/dc/terms/partOf> <http://wso2.scholastic-labs.io> .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/Ontology> .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/dc/terms/status> <http://purl.org/adms/status/UnderDevelopment> .
+<http://wso2.scholastic-labs.io/cool> <http://purl.org/dc/elements/1.1/creator> <http://wso2.scholastic-labs.io/cool#bernard> .
+<http://wso2.scholastic-labs.io/cool#ttl> <http://purl.org/dc/terms/FileFormat> "" .
+<http://wso2.scholastic-labs.io/cool#ttl> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://wso2.scholastic-labs.io/cool#rdf> <http://purl.org/dc/terms/FileFormat> "" .
+<http://wso2.scholastic-labs.io/cool#rdf> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://wso2.scholastic-labs.io/cool#bernard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://wso2.scholastic-labs.io/cool#bernard> <http://xmlns.com/foaf/0.1/nick> "bernard" .
+<http://wso2.scholastic-labs.io/cool#video> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://wso2.scholastic-labs.io/cool#video> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://wso2.scholastic-labs.io/cool#video> <http://www.w3.org/2000/01/rdf-schema#label> "Video" .
+<http://wso2.scholastic-labs.io/cool#video> <http://www.w3.org/2000/01/rdf-schema#comment> "Video product or works that are part of books or other products" .
+<http://wso2.scholastic-labs.io/cool#videoURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#videoURL> <http://www.w3.org/2000/01/rdf-schema#label> "Video URL" .
+<http://wso2.scholastic-labs.io/cool#videoURL> <http://www.w3.org/2000/01/rdf-schema#comment> "URL to video" .
+<http://wso2.scholastic-labs.io/cool#videoURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://wso2.scholastic-labs.io/cool#video> .
+<http://wso2.scholastic-labs.io/cool#videoDesc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#videoDesc> <http://www.w3.org/2000/01/rdf-schema#label> "Video Description" .
+<http://wso2.scholastic-labs.io/cool#videoDesc> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of video" .
+<http://wso2.scholastic-labs.io/cool#videoDesc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://wso2.scholastic-labs.io/cool#video> .
+<http://wso2.scholastic-labs.io/cool#videoDesc> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/description> .
+<http://wso2.scholastic-labs.io/cool#videoSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#videoSubject> <http://www.w3.org/2000/01/rdf-schema#label> "Video Subject" .
+<http://wso2.scholastic-labs.io/cool#videoSubject> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject of video content" .
+<http://wso2.scholastic-labs.io/cool#videoSubject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://wso2.scholastic-labs.io/cool#video> .
+<http://wso2.scholastic-labs.io/cool#videoSubject> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/subject> .
+<http://wso2.scholastic-labs.io/cool#videoTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#videoTitle> <http://www.w3.org/2000/01/rdf-schema#label> "Video Title" .
+<http://wso2.scholastic-labs.io/cool#videoTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "The title of video" .
+<http://wso2.scholastic-labs.io/cool#videoTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://wso2.scholastic-labs.io/cool#video> .
+<http://wso2.scholastic-labs.io/cool#videoTitle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> .
+<http://wso2.scholastic-labs.io/cool#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#title> <http://www.w3.org/2000/01/rdf-schema#label> "Title" .
+<http://wso2.scholastic-labs.io/cool#title> <http://www.w3.org/2000/01/rdf-schema#comment> "Book/Work title for COOL" .
+<http://wso2.scholastic-labs.io/cool#title> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> .
+<http://wso2.scholastic-labs.io/cool#format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#format> <http://www.w3.org/2000/01/rdf-schema#label> "Format" .
+<http://wso2.scholastic-labs.io/cool#format> <http://www.w3.org/2000/01/rdf-schema#comment> "Format specific to COOL" .
+<http://wso2.scholastic-labs.io/cool#format> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/format> .
+<http://wso2.scholastic-labs.io/cool#genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#genre> <http://www.w3.org/2000/01/rdf-schema#label> "Genre" .
+<http://wso2.scholastic-labs.io/cool#genre> <http://www.w3.org/2000/01/rdf-schema#comment> "Genre of COOL" .
+<http://wso2.scholastic-labs.io/cool#theme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#theme> <http://www.w3.org/2000/01/rdf-schema#label> "Theme" .
+<http://wso2.scholastic-labs.io/cool#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "Theme" .
+<http://wso2.scholastic-labs.io/cool#bookType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#bookType> <http://www.w3.org/2000/01/rdf-schema#label> "Book Type" .
+<http://wso2.scholastic-labs.io/cool#bookType> <http://www.w3.org/2000/01/rdf-schema#comment> "COOL Book Type" .
+<http://wso2.scholastic-labs.io/cool#readingLevelLexHigh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#readingLevelLexHigh> <http://www.w3.org/2000/01/rdf-schema#label> "Reading Level Lex High" .
+<http://wso2.scholastic-labs.io/cool#readingLevelLexHigh> <http://www.w3.org/2000/01/rdf-schema#comment> "High reading Lexile Level" .
+<http://wso2.scholastic-labs.io/cool#readingLevelLexHigh> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#readingLevelLexLow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#readingLevelLexLow> <http://www.w3.org/2000/01/rdf-schema#label> "Reading Level Lex Low" .
+<http://wso2.scholastic-labs.io/cool#readingLevelLexLow> <http://www.w3.org/2000/01/rdf-schema#comment> "Low Lexile reading level" .
+<http://wso2.scholastic-labs.io/cool#readingLevelLexLow> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#minQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#readingLevelHigh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#readingLevelHigh> <http://www.w3.org/2000/01/rdf-schema#label> "ReadingLevelHigh" .
+<http://wso2.scholastic-labs.io/cool#readingLevelHigh> <http://www.w3.org/2000/01/rdf-schema#comment> "High reading level" .
+<http://wso2.scholastic-labs.io/cool#readingLevelHigh> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#readingLevelLow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#readingLevelLow> <http://www.w3.org/2000/01/rdf-schema#label> "Reading Level Low" .
+<http://wso2.scholastic-labs.io/cool#readingLevelLow> <http://www.w3.org/2000/01/rdf-schema#comment> "Low reading level" .
+<http://wso2.scholastic-labs.io/cool#readingLevelLow> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#minQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#readingLevelARHigh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#readingLevelARHigh> <http://www.w3.org/2000/01/rdf-schema#label> "Reading Level AR High" .
+<http://wso2.scholastic-labs.io/cool#readingLevelARHigh> <http://www.w3.org/2000/01/rdf-schema#comment> "High AR Reading level" .
+<http://wso2.scholastic-labs.io/cool#readingLevelARHigh> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#readingLevelARLow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#readingLevelARLow> <http://www.w3.org/2000/01/rdf-schema#label> "Reading Level AR Low" .
+<http://wso2.scholastic-labs.io/cool#readingLevelARLow> <http://www.w3.org/2000/01/rdf-schema#comment> "Low AR reading level" .
+<http://wso2.scholastic-labs.io/cool#readingLevelARLow> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#minQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#guidedReadingLevelHigh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#guidedReadingLevelHigh> <http://www.w3.org/2000/01/rdf-schema#label> "Guided Reading Level High" .
+<http://wso2.scholastic-labs.io/cool#guidedReadingLevelHigh> <http://www.w3.org/2000/01/rdf-schema#comment> "High Guided reading level" .
+<http://wso2.scholastic-labs.io/cool#guidedReadingLevelHigh> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelHigh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelHigh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelHigh> <http://www.w3.org/2000/01/rdf-schema#label> "Sch Reading Level High" .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelHigh> <http://www.w3.org/2000/01/rdf-schema#comment> "High Scholastic reading level" .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelHigh> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelHigh> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelLow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelLow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelLow> <http://www.w3.org/2000/01/rdf-schema#label> "Sch Reading Level Low" .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelLow> <http://www.w3.org/2000/01/rdf-schema#comment> "Low Scholastic Reading Level" .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelLow> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://wso2.scholastic-labs.io/cool#schReadingLevelLow> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#minQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#eBookSample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#eBookSample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#eBookSample> <http://www.w3.org/2000/01/rdf-schema#label> "eBook Sample" .
+<http://wso2.scholastic-labs.io/cool#eBookSample> <http://www.w3.org/2000/01/rdf-schema#comment> "Is there eBook Sample?" .
+<http://wso2.scholastic-labs.io/cool#eBookSample> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://wso2.scholastic-labs.io/cool#eFileSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#eFileSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#eFileSize> <http://www.w3.org/2000/01/rdf-schema#label> "eFile Size" .
+<http://wso2.scholastic-labs.io/cool#eFileSize> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://wso2.scholastic-labs.io/cool#totalEnrichment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#totalEnrichment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#totalEnrichment> <http://www.w3.org/2000/01/rdf-schema#label> "Total Enrichment" .
+<http://wso2.scholastic-labs.io/cool#totalEnrichment> <http://www.w3.org/2000/01/rdf-schema#comment> "Total enrichment" .
+<http://wso2.scholastic-labs.io/cool#totalEnrichment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://wso2.scholastic-labs.io/cool#eReaderCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#eReaderCategory> <http://www.w3.org/2000/01/rdf-schema#label> "EReader Category" .
+<http://wso2.scholastic-labs.io/cool#eReaderCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Book eReader Category" .
+<http://wso2.scholastic-labs.io/cool#partOfBookSeries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#partOfBookSeries> <http://www.w3.org/2000/01/rdf-schema#label> "Part Of Book Series" .
+<http://wso2.scholastic-labs.io/cool#partOfBookSeries> <http://www.w3.org/2000/01/rdf-schema#comment> "Book series" .
+<http://wso2.scholastic-labs.io/cool#summary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#summary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#summary> <http://www.w3.org/2000/01/rdf-schema#label> "Summary" .
+<http://wso2.scholastic-labs.io/cool#summary> <http://www.w3.org/2000/01/rdf-schema#comment> "Summary" .
+<http://wso2.scholastic-labs.io/cool#summary> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://wso2.scholastic-labs.io/cool#summary> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/description> .
+<http://wso2.scholastic-labs.io/cool#skill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#skill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#skill> <http://www.w3.org/2000/01/rdf-schema#label> "Skill" .
+<http://wso2.scholastic-labs.io/cool#skill> <http://www.w3.org/2000/01/rdf-schema#comment> "Skill development category" .
+<http://wso2.scholastic-labs.io/cool#skill> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://wso2.scholastic-labs.io/cool#minGradeLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#minGradeLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Min Grade Level" .
+<http://wso2.scholastic-labs.io/cool#minGradeLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Minimum grade level" .
+<http://wso2.scholastic-labs.io/cool#minGradeLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#minQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#maxGradeLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#maxGradeLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#maxGradeLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Max Grade Level" .
+<http://wso2.scholastic-labs.io/cool#maxGradeLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Maximum grade level" .
+<http://wso2.scholastic-labs.io/cool#maxGradeLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://wso2.scholastic-labs.io/cool#maxGradeLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> .
+<http://wso2.scholastic-labs.io/cool#guidedReadingLevelLow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#guidedReadingLevelLow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#guidedReadingLevelLow> <http://www.w3.org/2000/01/rdf-schema#label> "Guided Reading Level Low" .
+<http://wso2.scholastic-labs.io/cool#guidedReadingLevelLow> <http://www.w3.org/2000/01/rdf-schema#comment> "Guided Reading Level Low" .
+<http://wso2.scholastic-labs.io/cool#guidedReadingLevelLow> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://wso2.scholastic-labs.io/cool#guidedReadingLevelLow> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#minCardinality> .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRAHigh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRAHigh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRAHigh> <http://www.w3.org/2000/01/rdf-schema#label> "High DRA Reading Level" .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRAHigh> <http://www.w3.org/2000/01/rdf-schema#comment> "High DRA Reading Level" .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRAHigh> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRAHigh> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#maxCardinality> .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRALow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRALow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRALow> <http://www.w3.org/2000/01/rdf-schema#label> "Low DRA Reading Level" .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRALow> <http://www.w3.org/2000/01/rdf-schema#comment> "Low DRA Reading Level" .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRALow> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://wso2.scholastic-labs.io/cool#readingLevelDRALow> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#minCardinality> .
+<http://wso2.scholastic-labs.io/cool#enrichmentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://wso2.scholastic-labs.io/cool#enrichmentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://wso2.scholastic-labs.io/cool#enrichmentType> <http://www.w3.org/2000/01/rdf-schema#label> "Enrichment Type" .
+<http://wso2.scholastic-labs.io/cool#enrichmentType> <http://www.w3.org/2000/01/rdf-schema#comment> "Book enrichment type" .
+<http://wso2.scholastic-labs.io/cool#enrichmentType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
