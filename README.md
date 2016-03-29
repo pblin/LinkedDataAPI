@@ -31,6 +31,3 @@ http://localhost:8088/api/term?q=dbo:author
     "rdf:isDefinedBy": "http://dbpedia.org/ontology/"
 }
 
-### Who do I talk to? ###
-
-* Bernard Lin
