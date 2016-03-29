@@ -13,8 +13,10 @@ docker run -d -p 8088:8088 demo/linkedata:latest
 ###if run on Mac OSX and test locally ###
 docker-machine ssh default -L 8088:localhost:8088
 
-### sample test and result ###
+### sample test ###
 http://localhost:8088/api/term?q=dbo:author
+
+### sample result ###
 {
     "describes": "dbp:author",
     "rdf:label": "autor",
