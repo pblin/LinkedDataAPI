@@ -1,23 +1,33 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
 ### What is this repository for? ###
 
 RDF API server side code on Node.js
-* 0.9
+* RDF API querying term defintion from DBpedia
 
 
 ### How do I get set up? ###
+docker build -t demo/linkeddata Dockerfile .
+docker run -d -p 8088:8088 demo/linkedata:latest 
 
-* Install Node.js
-* Install npm
-* run npm install to install all required packages
-* npm install nodemon
-* run nodemon server.js -p 8888
+#if run on Mac OSX and test locally
+docker-machine ssh default -L 8088:localhost:8088
+http://localhost:8088/api/term?q=dbo:author
 
-*Test codes demonstrate pulling information from different linked data stores and different "contexts" or graphs. 
-
+#result
+{
+    "describes": "dbp:author",
+    "rdf:label": "autor",
+    "wasDerivedFrom": "dbp:ontologyproperty:author",
+    "rdf:domain": "dbp:work",
+    "rdf:type": "owl:objectproperty",
+    "rdf:subPropertyOf": "owl:coparticipateswith",
+    "defines": "dbp:author",
+    "rdf:range": "dbp:person",
+    "describedby": "dbp:definitions.ttl",
+    "owl:equivalentProperty": "http://www.wikidata.org/entity/P50",
+    "rdf:isDefinedBy": "http://dbpedia.org/ontology/"
+}
 
 ### Who do I talk to? ###
 
