@@ -5,13 +5,13 @@
 var express    = require('express');
 var cors = require('cors');
 //var wait  = require ('wait.for');
-var Seq = require('seq');
+//var Seq = require('seq');
 var app        = express();
 var SparqlClient = require('sparql-client');
 var util = require('util');
 var dbpEndpoint = 'http://dbpedia.org/sparql';
 var sparqlEndpoint = 'http://dbpedia.org/sparql';
-//var HashMap = require ('hashmap').HashMap;
+var HashMap = require ('hashmap').HashMap;
 var utf8 = require ('utf8');
 //var N3 = require ('n3');
 //var vocabRdf = [];
@@ -26,7 +26,7 @@ var vocab = [
 ];
 
 //map = new HashMap();
-//linkmap = new HashMap();
+var linkmap = new HashMap();
 
 var port     = process.env.PORT || 8088; // set our port
 
@@ -48,7 +48,7 @@ router.get('/', function(req, res) {
 
 // trial
 router.get('/findPerson', function (req, res) {
-      var nameStr=req.query.name;
+      var nameStr=req.query.name.replace(/\"/g,'');
 
       if (nameStr == undefined )
         {

@@ -1,12 +1,12 @@
 {
-  "name": "rdf-api",
+  "name": "LinkeddataAPI",
   "main": "server-new.js",
   "dependencies": {
-    "body-parser": "~1.0.1",
-    "coffee-script": "^1.7.1",
-    "express": "~4.0.0",
-    "mongoose": "~3.6.13",
-    "morgan": "~1.0.0",
-    "request": "1.9.0"
+    "cors": "^2.7.1",
+    "express": "^4.0.0",
+    "utf8": "^2.1.1",
+    "hashmap":"^2.0.4",
+    "sparql-client":"^0.2.0",
+    "request": "^2.51.0"
   }
 }
