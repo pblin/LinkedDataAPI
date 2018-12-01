@@ -7,8 +7,7 @@ RDF API server side code on Node.js
 
 
 ### How do I get set up? ###
-docker build -t demo/linkeddata Dockerfile .
-docker run -d -p 8088:8088 demo/linkedata:latest 
+docker run -d -p 8088:8088 bernardlin/linkedata:latest 
 
 ###if run on Mac OSX and test locally ###
 docker-machine ssh default -L 8088:localhost:8088
